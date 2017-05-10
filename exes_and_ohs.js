@@ -1,7 +1,12 @@
+/*
+Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contains any char.
+*/
+
+
 function XO(str) {
   //Take in the string as lowercase characters to make it case insensitive.
   var str = str.toLowerCase();
-  
+
   //Turn the string into an array.
   var arrayOfCharacters = str.split("");
 
